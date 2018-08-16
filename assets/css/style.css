@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'roundy-rainbows';
+  src: url('../fonts/roundy-rainbows-webfont.woff2') format('woff2'),
+       url('../fonts/roundy-rainbows-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.roundy-rainbows {
+  font-family: "roundy-rainbows", sans-serif;
+  font-size: 2.5em;
+}
+
+#name {
+  font-size: 5em;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
+
+#index-banner .section {
+  top: 10%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.fab {
+  padding: 10px;
+}
+
+@media only screen and (max-width : 549px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
