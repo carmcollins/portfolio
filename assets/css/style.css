@@ -1,7 +1,8 @@
+/* Custom Font */
+
 @font-face {
   font-family: 'roundy-rainbows';
-  src: url('../fonts/roundy-rainbows-webfont.woff2') format('woff2'),
-       url('../fonts/roundy-rainbows-webfont.woff') format('woff');
+  src: url('../fonts/roundy-rainbows-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,12 +12,40 @@
   font-size: 2.5em;
 }
 
-#name {
-  font-size: 5em;
+/* Font Colors */
+
+.pinktext {
+  color: #ea73ac;
+}
+
+.orangetext {
+  color: #e27328;
+}
+
+.tealtext {
+  color: teal;
+}
+
+/* Text */
+
+.main-title {
+  font-size: 7em;
+  color: teal;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: black;
 }
 
 p {
   line-height: 2rem;
+}
+
+.fab, .far {
+  padding: 10px;
 }
 
 .parallax-container {
@@ -33,7 +62,7 @@ p {
 }
 
 #index-banner .section {
-  top: 10%;
+  top: 5%;
 }
 
 .icon-block {
@@ -43,16 +72,130 @@ p {
   font-size: inherit;
 }
 
-footer.page-footer {
-  margin: 0;
+#quote2 {
+  top: 25%;
 }
 
-.fab {
+/* Footer */
+
+footer.page-footer {
+  margin: 0;
+  background-color: teal;
   padding: 10px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width : 1257px) {
+  #quote2 {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width : 1023px) {
+  .main-title {
+    font-size: 6em;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 1007px) {
+  #quote1 {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  #quote1 {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width : 991px) {
+  #quote2 {
+    top: 25%;
+  }
+}
+
+@media only screen and (max-width : 967px) {
+  .main-title {
+    font-size: 5em;
+  }
+  
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 966px) {
+  #quote2 {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width : 814px) {
+  #main-header {
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-width : 801px) {
+  #quote1 {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width : 739px) {
+  #quote2 {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #quote1 {
+    top: 20%;
+  }
+  
+  #quote2 {
+    top: 20%;
+  }
 }
 
 @media only screen and (max-width : 549px) {
   #index-banner .section {
     top: 0;
+  }
+
+  .subtitle {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width : 504px) {
+  #quote1 {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width : 465px) {
+  #quote2 {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width : 419px) {
+  .main-title {
+    font-size: 5em;
+  }
+
+  .subtitle {
+    margin-top: 0px;
+  }
+  
+  #index-banner .section {
+    top: 0px;
   }
 }
