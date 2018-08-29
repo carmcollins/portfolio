@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'roundy-rainbows';
-  src: url('../fonts/roundy-rainbows-webfont.woff') format('woff');
+  src: url('../fonts/roundy-rainbows.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,23 +14,23 @@
 
 /* Font Colors */
 
-.pinktext {
-  color: #ea73ac;
+.yellowtext {
+  color: #ba9020;
 }
 
 .orangetext {
-  color: #e27328;
+  color: #b85500;
 }
 
 .tealtext {
-  color: teal;
+  color: #114d45;
 }
 
 /* Text */
 
 .main-title {
   font-size: 7em;
-  color: teal;
+  color: #114d45;
 }
 
 .subtitle {
@@ -65,6 +65,11 @@ p {
   top: 5%;
 }
 
+.resume-btn {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -80,7 +85,7 @@ p {
 
 footer.page-footer {
   margin: 0;
-  background-color: teal;
+  background-color: #114d45;
   padding: 10px;
 }
 
